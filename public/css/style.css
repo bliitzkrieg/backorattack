@@ -1,0 +1,81 @@
+    	.clicked{
+    		background-color:#f0ad4e !important;
+    		border-color: #f0ad4e !important;
+    	}
+    	.error{
+              color: red;
+              font-size: 10px;
+        }
+        .vote{
+        	padding-top:4px;
+        }
+        .navbar-brand {
+				float:none;
+			}
+		#message{
+				padding:10px;
+				border-radius:0px;
+			}
+		body{
+				width:100%;
+				overflow-x:hidden;
+			}
+		.row{
+				margin-right: 0px;
+			}
+		.post{
+				min-height: 120px;
+			}
+		.warning{
+				color:red;
+			}
+		.rating{
+				padding-bottom: 3px;1
+			}
+		.sbAd{
+				text-align: center;
+			}
+		.create{
+			width:50%;
+		}
+		.leftPost{
+			float:left;
+			padding-right: 15px;
+		}
+		.banner{
+			width:90%;
+			max-width:245px;
+		}
+		.marginFix{
+			margin-left: 0px;
+		}
+
+		@media (max-width: 991px) {
+			.sidebar{
+				text-align: center;
+			}
+			.badge{
+				float:none !important;
+				margin-left: 10px;
+			}
+			.sbAd{
+				display:none;
+			}
+			#footer{
+				text-align: center;
+			}
+			#subBox{
+				float:none !important;
+				text-align: center;
+				padding-top: 40px;
+			}
+			#feed{
+				text-align: center;
+			}
+			#rowFix{
+				margin-left: 0;
+			}
+			.marginFix{
+				margin-left: auto;
+			}
+		}
